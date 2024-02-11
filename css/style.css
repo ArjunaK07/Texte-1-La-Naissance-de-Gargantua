@@ -3,7 +3,7 @@
             display: block;
         }
 
-@media screen (max-width:500px){
+@media screen (min-width:500px){
     .page {
           margin-left: 250px;
           margin-right: 250px;
