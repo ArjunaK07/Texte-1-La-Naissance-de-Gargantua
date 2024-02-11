@@ -1,13 +1,14 @@
-body{
+  body{
             background-color: #282828;
             display: block;
         }
 
-@media screen (min-width:600px; max-width:1400px;) {
-            .page {
-                width: 600px;
-            }
-        }
+@media screen (max-width:500px){
+    .page {
+          margin-left: 250px;
+          margin-right: 250px;
+    }
+}
 h1 {
   color: rgb(255, 84, 84);
   background-color: rgb(255, 206, 80);
@@ -17,8 +18,6 @@ h1 {
 
 .page{
   background-color: rgb(57, 57, 57);
-  margin-left: 250px;
-  margin-right: 250px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding: 10px;
