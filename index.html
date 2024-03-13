@@ -108,34 +108,35 @@ img{
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  padding: 15px;
+  padding: 10px;  
   display: grid;
   grid-template-rows: 150px auto;
-  row-gap: 20px;
-  min-width: 500px;
-  max-width: 550px;
+  row-gap: 25px;  
+  min-width: 350px;
+  max-width: 400px;
   left: 50%;
 	transform: translateX(-25%);
-  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  float: center;
 }
 
 .div1{
 width: auto;
 height: auto;
-position: static;
-padding: 5px;
+justify-self: center;
 }
 img {
   height: 150px;
   width: auto;
 }
 .div2{
-min-width: 500px;
-max-width: 550px;
+min-width: 300px;
+max-width: 350px;
 height: auto;
 position: static;
-margin-top: 10px ;
-
+justify-self: center;
+margin-top: 15px;
 }
 .tooltip .tooltiptext::after {
   position: absolute;
@@ -182,11 +183,11 @@ margin-top: 10px ;
                margin-top: 0px;
                margin-bottom: 0px;
             }
-            .tooltip .tooltiptext {
+  .tooltip .tooltiptext {
   visibility: hidden;
   background-color: rgb(80, 80, 80);
   color: #fff;
-  text-align: left;
+  text-align: center;
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
@@ -194,29 +195,30 @@ margin-top: 10px ;
   padding: 15px;
   display: grid;
   grid-template-rows: 150px auto;
-  row-gap: 20px;
-  max-width: 250px;
+  row-gap: 25px;  
+  min-width: 250px;
+  max-width: 300px;
   left: 50%;
 	transform: translateX(-25%);
+  align-items: center;
 }
 
 .div1{
-width: 300px;
-max-height: 300px;
 position: static;
-padding: 5px;
+float: center;
+justify-self: center;
 }
 img{
-  max-width: 250px;
-  max-height: 150px;
+float: center;
+height: 125px;
+width: 200px;
 }
 .div2{
+min-width: 200px;
 max-width: 250px;
 height: auto;
 position: static;
-margin-top: 10px ;
-background-color: aquamarine;
-
+justify-self: center;
 }
 }
     </style>
